@@ -5,8 +5,8 @@
 ### the degrees of freedom (df) for a particular lambda and a 
 ### predictor matrix X (see notes). 
 
-### Then, we can use the following to determine how far a particular
-### lambda is from k
+### Then, we can use the following to determine how far the df resulting
+### from a particular lambda is from the desired k
 L <- function(lambda,k,X) { 
   (df(lambda,X) - k)^2
 }
@@ -28,10 +28,10 @@ lambda_8 <- L_opt$minimum
 ### model). Note, s_lam(lambda,X,Y,t0) would need to use glmnet to 
 ### get the beta estimates from a lasso with lambda.
 
-### Then, we can use the following to determine how far a particular
-### lambda is from s
+### Then, we can use the following to determine how far the s resulting
+### from a particular lambda is from the desired s
 L <- function(lambda,s,X,Y,t0) {
-  (s_lam(lambda,X,Y,t0) - s)ˆ2
+  (s_lam(lambda,X,Y,t0) - s)^2
 }
 
 ### To find the value of lambda that gives a s = p we can use 
