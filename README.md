@@ -5,7 +5,7 @@ For course notes, handouts, and examples see the **Class-Material** folder. For 
 
 ## Overview
 
-The main focus of this course focus will be on using biostatistical models to predict and provide information on complex public health datasets. We will focus more on prediction of outcome(s) than estimation of the impact of a risk factor. However, some inferential methods for risk factors will be reviewed and (for all methods) techniques to measure variable importance will be discussed. Further, unsupervised learning methods (e.g., clustering) will be discussed. Prediction and predictive inference will be main themes in the course along with learning how to implement the methods in R software. See the Course Schedule below for a full list of topics.
+The main focus of this course is using biostatistical models to predict and provide information on complex public health datasets. We will focus more on prediction of outcome(s) than estimation of the impact of a risk factor. However, some inferential methods for risk factors will be reviewed and (for all methods) techniques to measure variable importance will be discussed. Further, unsupervised learning methods (e.g., clustering) will be discussed. Prediction and predictive inference will be main themes in the course along with learning how to implement the methods in R software. See the Course Schedule below for a full list of topics.
 
 The main topics we will cover in this course (among others) are:
 
